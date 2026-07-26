@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #322c32;
+    background-color: #0B0F19;
     color: white;
 }
 
@@ -350,8 +350,8 @@ html {
 .certificate-card:hover{
     transform: translateY(-10px) scale(1.02);
     box-shadow:
-        0 15px 35px rgba(132, 131, 131, 0.18),
-        0 5px 15px rgba(130, 130, 130, 0.08);
+        0 15px 35px #3c5086,
+        0 5px 15px #3c5086;
     cursor: pointer;
 }
 .list a:hover {
