@@ -130,9 +130,14 @@ Optimized for:
 
 ---
 
-## 📬 Contact
+## ⭐ Support
 
-**Shivam Prajapati**
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+## Author
+Shivam Prajapati
 
 📧 Email: shivamprajapati2006@gmail.com
 
@@ -141,18 +146,6 @@ https://www.linkedin.com/in/prajapatishivam07/
 
 🐙 GitHub:
 https://github.com/ShivamPrajapati-7
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
