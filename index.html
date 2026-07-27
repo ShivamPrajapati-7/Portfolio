@@ -90,7 +90,7 @@
                     <p class="college">Don Bosco School, Jhansi</p>
                     <p>2022</p>
                     <p class="details">
-                        Percentage: 75.8%                    </p>
+                        Percentage: 75.8% </p>
 
                 </div>
             </div>
@@ -253,7 +253,9 @@
                     <h3>Brain Arena</h3>
 
                     <p>
-                        Brain Arena is an Android math quiz game built with Kotlin. It features four arithmetic modes, random question generation, score tracking, lives system, and a clean, user-friendly interface to make learning mathematics fun.
+                        Brain Arena is an Android math quiz game built with Kotlin. It features four arithmetic modes,
+                        random question generation, score tracking, lives system, and a clean, user-friendly interface
+                        to make learning mathematics fun.
                     </p>
 
                     <div class="tech">
@@ -354,31 +356,39 @@
 
 
     <!--Contact me-->
-    <div class="foot">
+    
         <div class="contact">
-
-            <div class="contact-container">
-
-                <div class="contact-info">
-
-                    <div class="contact-item">
-                        <div>
-                            <h3>Email</h3>
-                            <p>shivamprajapati2006@gmail.com</p>
-                        </div>
-                    </div>
+            <h1>Contact Me</h1>
+            <div class="contact_containor">
+                <div class="email">
+                    <h3>Email</h3>
+                    <p>shivamprajapati2006@gmail.com</p>
                 </div>
+                <div class="contact_me">
+                    
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Full Name">
+                        <input type="email" name="" id="email" placeholder="Email">
+                        <input type="text" id="subject" placeholder="Subject">
+                        <textarea name="" id="message" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
 
+                    </form>
+                </div>
             </div>
-
         </div>
 
-    </div>
+    
     <footer class="footer">
         <p>© 2026 Shivam Prajapati Portfolio. All Rights Reserved.</p>
     </footer>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init("UkMKCLvjpXRtiRyT4");
+    </script>
 </body>
 
 </html>
