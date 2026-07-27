@@ -10,7 +10,7 @@ projects, certifications, internships, and contact information.
 
 ## 🚀 Live Demo
 
-🔗https://ladies-festival-campaign-axis.trycloudflare.com/
+🔗https://shivamprajapati-7.github.io/
 
 
 ```text
