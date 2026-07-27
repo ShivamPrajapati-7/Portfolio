@@ -10,7 +10,7 @@ projects, certifications, internships, and contact information.
 
 ## 🚀 Live Demo
 
-🔗https://tier-laden-christopher-quarterly.trycloudflare.com/
+🔗https://shivamprajapati-7.github.io/
 
 
 ```text
