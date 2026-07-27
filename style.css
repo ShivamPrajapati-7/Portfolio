@@ -488,6 +488,14 @@ html {
    #message{
     color: #000;
    }
-
+   #btn:hover{
+    background: #68818b36;
+    transform:translateY(-4px) scale(1.03);
+    box-shadow:0 15px 35px rgba(37,99,235,.45);
+   }
+   #btn:active
+   {
+    transform:scale(.97);
+    }
     
 }
