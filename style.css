@@ -422,13 +422,7 @@ html {
         margin-bottom: 30px;
     }
 
-    .contact {}
-
-    .contact-container {
-        color: black;
-        background-color: white;
-        width: 20%;
-    }
+    
 
     .contact {
         display: flex;
@@ -452,29 +446,36 @@ html {
     }
 
 
-
-    
+    .contact_containor{
+        display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;
+    }
     .contact{
         margin: auto;
-        width: 40%;
-        padding:80px 10%;
+        width: 80%;
+        padding:2%;
         display: flex;
         flex-direction: column;
 
     }
-    .contact-container{
-        
-    }
+    
     .email{
-        background: transparent;
-        color: white;
+        width: 30%;
+        background: white;
+        color: black;
         text-align: center;
     }
-    .email h3{
-        color: white;
+    .contact form{
+        width: 50%;
+        align-items: center;
     }
-    .email p{
-        color: white;
+    .contact_me{
+        display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;
     }
    #subject{
     color: #000;
@@ -489,13 +490,13 @@ html {
     color: #000;
    }
    #btn:hover{
-    background: #68818b36;
-    transform:translateY(-4px) scale(1.03);
+    background: #41414136;
+    transform:translateY(-4px) scale(1.009);
     box-shadow:0 15px 35px rgba(37,99,235,.45);
    }
    #btn:active
    {
-    transform:scale(.97);
+    transform:scale(1);
     }
     
 }
