@@ -265,7 +265,7 @@ html {
     padding: 15px;
     
     border-radius: 10px;
-    color: white;
+    color: black;
     font-size: 1rem;
     outline: none;
 }
@@ -289,22 +289,20 @@ html {
     font-size: 1rem;
     font-weight: bold;
 }
-#subject{
-    color: #000;
-   }
-   #name{
-    color: #000;
-   }
-   #email{
-    color: #000;
-   }
-   #message{
-    color: #000;
-   }
-
 .footer p {
     text-align: center;
 
+}
+#name,
+#email,
+#subject,
+#message {
+    color: black;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    -webkit-text-fill-color: black !important;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 @media(max-width:768px) {
@@ -331,6 +329,7 @@ html {
         display: flex;
     }
 }
+
 
 @media (min-width:1024px) {
     * {
