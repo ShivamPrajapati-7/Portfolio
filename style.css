@@ -304,6 +304,25 @@ textarea:-webkit-autofill {
     -webkit-text-fill-color: black !important;
     transition: background-color 5000s ease-in-out 0s;
 }
+#btn {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+#btn:active {
+    animation: press 0.2s ease;
+}
+
+@keyframes press {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.92);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 @media(max-width:768px) {
 
@@ -489,14 +508,6 @@ textarea:-webkit-autofill {
     width: 100%;
     }
    
-   #btn:hover{
-    background: #41414136;
-    transform:translateY(-4px) scale(1.009);
-    box-shadow:0 15px 35px rgba(37,99,235,.45);
-   }
-   #btn:active
-   {
-    transform:scale(1);
-    }
+   
     
 }
