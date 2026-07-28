@@ -289,6 +289,18 @@ html {
     font-size: 1rem;
     font-weight: bold;
 }
+#subject{
+    color: #000;
+   }
+   #name{
+    color: #000;
+   }
+   #email{
+    color: #000;
+   }
+   #message{
+    color: #000;
+   }
 
 .footer p {
     text-align: center;
@@ -477,18 +489,7 @@ html {
     align-items: center;     
     width: 100%;
     }
-   #subject{
-    color: #000;
-   }
-   #name{
-    color: #000;
-   }
-   #email{
-    color: #000;
-   }
-   #message{
-    color: #000;
-   }
+   
    #btn:hover{
     background: #41414136;
     transform:translateY(-4px) scale(1.009);
