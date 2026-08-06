@@ -44,3 +44,9 @@ form.addEventListener("submit", function(e){
     });
 
 });
+const hero = document.querySelector(".quot",".about_container");
+
+window.addEventListener("scroll", () => {
+    const scale = Math.max(0.7, 1 - window.scrollY * 0.0005);
+    hero.style.transform = `scale(${scale})`;
+});
