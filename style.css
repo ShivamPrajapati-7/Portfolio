@@ -15,6 +15,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 20;
 }
 
 .logo {
@@ -42,15 +44,12 @@ html {
     color: aliceblue;
 }
 
-
-
-
-
 .hamburger {
     display: none;
     flex-direction: column;
     gap: 6px;
     cursor: pointer;
+    z-index:10;  
 }
 
 .hamburger span {
@@ -79,6 +78,7 @@ html {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #251b1b;
+     z-index:1;
 
 }
 
@@ -329,6 +329,10 @@ textarea:-webkit-autofill {
     .hamburger {
         display: flex;
     }
+    .image {
+    position: relative; 
+    z-index: 0;
+}
 
     .list {
         position: absolute;
@@ -354,6 +358,10 @@ textarea:-webkit-autofill {
     * {
         padding: 0.5%;
     }
+    .image {
+    position: relative; 
+    z-index: 0; 
+}
 
     .quot {
         height: 50vw;
