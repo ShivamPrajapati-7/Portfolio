@@ -30,8 +30,6 @@ html {
 
 }
 
-.logo h1 {}
-
 .list {
     display: flex;
     gap: 50px;
@@ -70,8 +68,6 @@ html {
     text-align: center;
 }
 
-.image {}
-
 .image img {
     width: 170px;
     height: 170px;
@@ -91,10 +87,6 @@ html {
     margin-top: 15px;
     line-height: 1.7;
 }
-
-.about_container {}
-
-.card {}
 
 .education-card {
     display: flex;
@@ -141,6 +133,7 @@ html {
 }
 
 .project-card {
+    
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -154,12 +147,23 @@ html {
 
 }
 
-.project-card a {
+
+.project-card a{
+    margin-top: auto;
+    padding-top: 25px;
+
     text-decoration: none;
     color: green;
+    font-weight: 600;
 }
-
+.status{
+    background: #bdb8b8;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: 500;
+}
 .project-card span {
+    display: inline-flex;
     width: auto;
     background: #b3b1b1;
     border-radius: 20px;
@@ -173,8 +177,6 @@ html {
     gap: 10px;
     margin: 15px 0
 }
-
-.certificate-container {}
 
 .certificate-card {
     display: flex;
@@ -513,10 +515,4 @@ textarea:-webkit-autofill {
     align-items: center;     
     width: 100%;
     }
-}
-
-
-   
-   
-    
 }
