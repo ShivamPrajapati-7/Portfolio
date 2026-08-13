@@ -135,6 +135,7 @@ html {
 .project-card {
     
     width: 100%;
+    height: auto;
     box-sizing: border-box;
     margin-bottom: 10px;
     border: 1px solid rgba(255, 255, 255, .08);
@@ -149,19 +150,11 @@ html {
 
 
 .project-card a{
-    margin-top: auto;
-    padding-top: 25px;
-
     text-decoration: none;
     color: green;
     font-weight: 600;
 }
-.status{
-    background: #bdb8b8;
-    padding: 12px 22px;
-    border-radius: 25px;
-    font-weight: 500;
-}
+
 .project-card span {
     display: inline-flex;
     width: auto;
